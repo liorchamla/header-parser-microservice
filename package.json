@@ -1,12 +1,24 @@
 {
-  "name": "timestamp-microservice",
+  "name": "request-header-parser",
   "version": "1.0.0",
   "description": "My implementation of the FCC Challenge for a Timestamp Microservice",
   "main": "server.js",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liorchamla/header-parser-microservice.git"
+  },
   "author": "Lior Chamla",
   "dependencies": {
     "async": "~0.2.8",
     "express": "~3.2.4"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liorchamla/header-parser-microservice/issues"
+  },
+  "homepage": "https://github.com/liorchamla/header-parser-microservice#readme"
 }
